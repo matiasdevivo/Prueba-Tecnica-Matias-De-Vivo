@@ -86,7 +86,7 @@ curl -X POST http://localhost:5678/webhook-test/<tu-webhook-id> \
 ---
 
 ## Estructura del proyecto
-\```
+```
 ├── docs/                  # Documentación fuente (.txt, .md, .json, .pdf)
 ├── src/
 │   ├── main.py            # API FastAPI + integración con Ollama
@@ -94,4 +94,4 @@ curl -X POST http://localhost:5678/webhook-test/<tu-webhook-id> \
 ├── workflow.json           # Workflow n8n exportado
 ├── .env.example            # Variables de entorno requeridas
 └── README.md
-\```
+```
